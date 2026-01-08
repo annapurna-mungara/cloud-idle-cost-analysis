@@ -31,3 +31,14 @@ This project focuses on:
 
 ```bash
 bash aws_idle_ec2.sh
+
+## How It Works
+
+1. Lists running EC2 instances
+2. Fetches average CPU utilization from CloudWatch
+3. Flags instances with CPU usage below 5%
+4. Prints idle instances for cost review
+
+This is a beginner-friendly FinOps example focused on
+clarity over precision.
+
