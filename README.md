@@ -42,3 +42,15 @@ bash aws_idle_ec2.sh
 This is a beginner-friendly FinOps example focused on
 clarity over precision.
 
+## Output Example
+
+The script prints a tabular summary showing:
+- Instance ID
+- Instance type
+- Average CPU utilization
+- Estimated monthly cost (approximate)
+
+This format makes it easy to review idle resources
+during FinOps cost analysis.
+
+
