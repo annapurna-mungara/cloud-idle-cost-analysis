@@ -26,3 +26,8 @@ This project focuses on:
 - GCP compute idle detection
 - Databricks idle cluster analysis
 - Cost breakdown by service
+
+## Usage
+
+```bash
+bash aws_idle_ec2.sh
